@@ -1,0 +1,30 @@
+#bottom-info {
+    display: flex;
+    padding: 1vw;
+    justify-content: center;
+    height: 4vw;
+    background-color: gray;
+}
+#menu {
+    width: 100%;
+    background-color: aqua;
+    height: 3vw;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+#blank {
+    flex-grow: 5;
+}
+.menu-items {
+    flex-grow: 1;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+}
